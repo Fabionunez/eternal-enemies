@@ -39,7 +39,9 @@ function main() {
     canvasElement.setAttribute("width", width);
     canvasElement.setAttribute("height", height);
 
-    //console.log(width, height);
+    const game = new Game(canvasElement);
+
+    game.startLoop();
 
     setTimeout(buildGameOverScreen, 3000);
   }
