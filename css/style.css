@@ -103,5 +103,5 @@ section.testimonials .button {
 }
 
 canvas {
-  background-color: grey
+  border: 1px solid black;
 }
